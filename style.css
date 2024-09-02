@@ -1,0 +1,1281 @@
+/* Default code starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* text-wrap: pretty; */
+   /* border: 1px solid red; */
+}
+
+body {
+   line-height: 1.5;
+   -webkit-font-smoothing: antialiased;
+   background-color: #f8f2f4;
+   font-family: "Poppins", sans-serif;
+   font-optical-sizing: auto;
+}
+
+html {
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-padding-top: 0rem;
+}
+
+::-webkit-scrollbar {
+   width: 1rem;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+   /* text-wrap: balance; */
+}
+
+input,
+textarea,
+button {
+   font-family: Poppins;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+   display: block;
+   max-width: 100%;
+}
+
+:root {
+   --primaryColor: #ffffff;
+   --secondaryColor: #660600;
+   --darkColor: #330300;
+   --lightColor: #ff0f00;
+   --regularFont: 1.4rem;
+   --headingFont: 2rem;
+   --ffPrimary: "Roboto", sans-serif;
+   --ffSecondary: "Merienda", cursive;
+}
+
+.align {
+   max-width: 1200px;
+   margin: auto;
+   padding: 0 3rem;
+}
+
+.componentSpacing {
+   padding: 3rem 0;
+}
+
+.minipad {
+   padding: 1rem;
+}
+
+.grid-1 {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.grid-2 {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-4 {
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr 2fr;
+}
+
+.grid-5 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-6 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-7 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.dflex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.dflex-col {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.dflex-col-start {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: left;
+}
+
+/* :::PARENT CONTAINER code Starts here::: */
+
+header {
+   width: 100%;
+   height: auto;
+}
+
+main {
+   width: 100%;
+   height: auto;
+}
+
+footer {
+   width: 100%;
+   height: auto;
+}
+
+/* :::PARENT CONTAINER code Ends here::: */
+
+/* :::HEADER Code Starts here:::  */
+/* Navbar code  */
+/* Navbar code  */
+
+/* Hero Section code  */
+/* Hero Section code  */
+/* :::HEADER Code Ends here::: */
+
+/* ::: MAIN Code Starts here ::: */
+/* our Menu code */
+/* our Menu code  */
+
+/* Facility code  */
+/* Facility code  */
+
+/* Popular code  */
+/* Popular code  */
+
+/* Team code  */
+/* Team code  */
+/* :::MAIN Code Ends here:::  */
+
+/* :::FOTTER Code Starts here::: */
+/* Contact code */
+/* Contact code */
+
+/* Contact Icon code */
+/* Contact Icon code */
+/* :::FOOTER Code Ends here:: */
+
+
+
+/*::: HEADER CODE Starts here ::: */
+.navBarContainer {
+   background-color: #ffffff;
+   /* padding-top: 1rem;
+    margin-bottom: auto; */
+}
+
+.navBar {
+   background-color: rgb(255, 255, 255);
+}
+
+.navBar img {}
+
+.navHeader {
+   background-color: rgb(255, 255, 255);
+   gap: 2rem;
+}
+
+.navLogo1 {
+   background-color: #ffffff;
+}
+
+.navLogo1 img {
+   background-color: rgb(255, 255, 255);
+
+   aspect-ratio: 3/5;
+   height: 11rem;
+   width: 60%;
+   margin: 2.2rem auto 0;
+}
+
+.navLogo2 {
+   background-color: #ffffff;
+
+}
+
+.navLogo2 img {
+   background-color: rgb(255, 255, 255);
+   aspect-ratio: 5/2;
+   height: 9rem;
+   width: 150;
+   margin: 3.6rem auto 0
+}
+
+.navLogo3 {
+   background-color: #ffffff;
+}
+
+.navLogo3 img {
+   background-color: rgb(255, 255, 255);
+   aspect-ratio: 3/5;
+   height: 11rem;
+   width: 60%;
+   margin: 2rem auto 0;
+}
+
+.navLogo4 {
+   background-color: #ffffff;
+}
+
+.navLogo4 img {
+   background-color: rgb(255, 255, 255);
+   aspect-ratio: 6/2;
+   width: 400%;
+   margin: 2.3rem auto 0;
+
+
+}
+
+.navLogo5 {
+   background-color: #ffffff;
+}
+
+.navLogo5 img {
+   background-color: rgb(255, 255, 255);
+   /* aspect-ratio: 3/2;
+    width: 40%; */
+   width: 100%;
+   height: 15rem;
+}
+
+.navLogo6 {
+   background-color: #ffffff;
+}
+
+.navLogo6 img {
+   background-color: rgb(254, 255, 253);
+   aspect-ratio: 3/5;
+   height: 11rem;
+   width: 60%;
+   margin: 2rem auto 0;
+}
+
+.navInformation {
+   background-color: #ffffff;
+}
+
+.navContent {
+   background-color: rgb(255, 255, 255);
+   gap: 0.50rem;
+   margin-bottom: 0.5rem;
+
+}
+
+.navContent p {
+   background-color: rgb(255, 255, 255);
+}
+
+.navContent img {
+   background-color: rgb(255, 255, 255);
+}
+
+.navContent a {
+   background-color: rgb(255, 255, 255);
+   font-size: 1.3rem;
+   font-weight: 700%;
+   text-decoration: none;
+}
+
+.navBody {
+   background-color: rgb(255, 255, 255);
+}
+
+.checkbtn {
+   /* font-size: 5rem; */
+   float: right;
+   line-height: 8rem;
+   margin-right: 4rem;
+   cursor: pointer;
+   display: none;
+}
+
+#check {
+   display: none;
+
+}
+
+.navLink {
+   background-color: rgb(45, 107, 166);
+   justify-content: space-around;
+   padding: 1.3rem 0 0rem 0;
+}
+
+.navLink li {
+   list-style-type: none;
+   margin-bottom: 0.1rem;
+
+}
+
+.navLink li a {
+   color: #e7e7e7;
+   text-decoration: none;
+   font-size: 1.55rem;
+   font-weight: 500;
+   font-family: "Roboto", sans-serif;
+
+
+}
+
+.heroSectionContainer {
+   background-color: rgb(255, 255, 255);
+}
+
+.heroSection {
+   background-color: rgb(255, 255, 255);
+}
+
+.herosectionHead {
+   background-color: rgb(255, 255, 255);
+}
+
+.heroImage {
+   background-color: rgb(255, 255, 255);
+}
+
+.heroImage img {
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   margin-right: 3rem;
+}
+
+.herosectionBody {
+   background-color: rgb(255, 255, 255);
+}
+
+.heroContent {
+   background-color: rgb(255, 255, 255);
+   /* padding: 0.20rem 0.20rem; */
+}
+
+.heroContent p {
+   background-color: rgb(255, 255, 255);
+   font-size: 1.3rem;
+   padding: 1.5rem 0;
+   font-weight: 500;
+
+
+}
+
+/* :::HEADER CODE ends here:::*/
+
+
+/*::: MAIN CODE STARTS HERE::: */
+.newsContainer {
+   background-color: rgb(255, 255, 255);
+}
+
+.news {
+   background-color: rgb(255, 255, 255);
+}
+
+.newsBody {
+   background-color: rgb(255, 255, 255);
+}
+
+.circularCard {
+   background-color: rgb(255, 255, 255);
+   align-items: start;
+
+}
+
+.circularCardBody1 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.circularCardBody1 a {
+   background-color: rgb(255, 255, 255);
+   /* font-size: 4rem; */
+
+}
+
+.circularCardBody1 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin: auto;
+
+}
+
+.circularCardBody2 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.circularCardBody2 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.circularCardBody2 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.circularCardBody3 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.circularCardBody3 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.circularCardBody3 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.circularCardBody4 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.circularCardBody4 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.circularCardBody4 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.circularCardBody5 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.circularCardBody5 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.circularCardBody5 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.circularCardBody6 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.circularCardBody6 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.circularCardBody6 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.circularCardBody7 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.circularCardBody7 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.circularCardBody7 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.circularContent {
+   background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.circularContentHead1 {
+   background-color: rgb(255, 255, 255);
+
+}
+
+.circularContentHead1 img {
+   background-color: rgb(255, 255, 255);
+
+   width: 54%;
+   margin-top: 0.54rem;
+
+
+}
+
+.circularContentBody1 {
+   background-color: rgb(255, 255, 255);
+
+}
+
+.circularContentBody1 p {
+   background-color: rgb(255, 255, 255);
+   padding-bottom: 1rem;
+   font-size: 1.2rem;
+   font-weight: 700;
+   font-family: "Poppins", sans-serif;
+   /* width: 70%; */
+
+}
+
+.circularContentBody1 a {
+   background-color: rgb(255, 255, 255);
+   text-decoration: none;
+   padding: 0.5rem 0;
+}
+
+.circularContentBody1 img {
+   background-color: rgb(255, 255, 255);
+   margin: auto;
+}
+
+.gallaryCard {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody1 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.gallaryContentBody1 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody1 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.gallaryContentBody2 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.gallaryContentBody2 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody2 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.gallaryContentBody3 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.gallaryContentBody3 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody3 img {
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.gallaryContentBody4 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.gallaryContentBody4 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody4 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.gallaryContentBody5 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.gallaryContentBody5 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody5 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.gallaryContentBody6 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.gallaryContentBody6 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody6 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.gallaryContentBody7 {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+}
+
+.gallaryContentBody7 a {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody7 img {
+   background-color: rgb(255, 255, 255);
+   height: 5rem;
+   margin-bottom: auto;
+}
+
+.gallaryContent {
+   background-color: rgb(255, 255, 255);
+
+}
+
+.gallaryContentHead {
+   background-color: rgb(255, 255, 255);
+   padding: 0.5rem 0.2rem;
+
+}
+
+.gallaryContentHead img {
+   background-color: rgb(255, 255, 255);
+   width: 55%;
+}
+
+.gallaryContentBody {
+   background-color: rgb(255, 255, 255);
+}
+
+.gallaryContentBody p {
+   background-color: rgb(255, 255, 255);
+   padding: 0.4rem 0;
+   font-size: 1.2rem;
+   font-weight: 700;
+   font-family: "Poppins", sans-serif;
+}
+
+.gallaryContentBody a {
+   background-color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+.gallaryContentBody img {
+   background-color: rgb(255, 255, 255);
+
+}
+
+.placementContainer {
+   background-color: rgb(255, 255, 255);
+   
+}
+
+.placement {
+   background-color: rgb(255, 255, 255);
+   padding: 0 20rem ;
+}
+
+.placementBody {
+   background-color: rgb(255, 255, 255);
+   
+   
+}
+
+.placementImage1 {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage1 img {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage2 {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage2 img {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage3 {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage3 img {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage4 {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage4 img {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage5 {
+   background-color: #ffffff;
+}
+
+.placementImage5 img {
+   background-color: #ffffff;
+}
+
+.placementImage6 {
+   background-color: rgb(255, 255, 255);
+}
+
+.placementImage6 img {
+   background-color: blanchedalmond;
+}
+
+.placementImage7 {
+   background-color: beige;
+}
+
+.placementImage7 img {
+   background-color: bisque;
+}
+
+
+
+/*::: HEADER CODE ENDS HERE::: */
+
+
+/*::: FOOTER CODE STARTS HERE::: */
+.contactContainer {
+   background-color: rgb(255, 255, 255);
+}
+
+.contact {
+   background-color: rgb(255, 255, 255);
+}
+
+.contactBody {
+   background-color: #003366;
+}
+
+.contact1 {
+   background-color: #003366;
+}
+
+.contactHead1 {
+   background-color: #003366;
+}
+
+
+.contactHead1 h2 {
+   background-color: #003366;
+   text-align: center;
+   color: #ffcc33;
+   font-weight: 600%;
+   padding: 1rem 0;
+   font-size: 2rem;
+   text-decoration: underline;
+}
+
+.contactHead1 p {
+   background-color: #003366;
+   font-size: 1.7rem;
+   font-family: "Poppins", sans-serif;
+   text-align: center;
+   font-weight: 700;
+   margin: 1.5rem auto 1.5rem;
+   color: #ffffff;
+}
+
+.contactBody1 {
+   background-color: #003366;
+   
+}
+
+.contactBody1 iframe {
+   background-color: #003366;
+
+   width: 70%;
+   height: 5rem;
+   
+   /* margin-left: 5rem; */
+
+}
+
+.contact2 {
+   background-color: rgb(255, 255, 255);
+}
+
+.contactHead2 {
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+
+
+}
+
+.contactHead2 h2 {
+   background-color: rgb(255, 255, 255);
+   background-color: #003366;
+   color: #ffcc33;
+   font-size: 2rem;
+   font-weight: 700;
+   padding: 1rem 0;
+   text-decoration: underline;
+   /* gap: 4rem; */
+
+}
+
+.contactBody2 {
+   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
+   /* padding: 0rem 3rem; */
+   /* width: 100%; */
+   display: flex;
+   justify-content: space-around;
+}
+
+.contactBody2 ul {
+   padding-right: 5rem;
+   /* margin-right: 3rem; */
+   line-height: 2.5;
+
+}
+
+.contactBody21 li {
+   margin: 1rem auto 1rem;
+   /* align-items: center; */
+   padding: 1rem 0;
+}
+
+.contactBody21 li a {
+   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
+   font-size: 1.5rem;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   color: #300eda;
+   text-decoration: none;
+   font-weight: bold;
+   margin-left: 1rem;
+}
+
+.contactBody22 {
+   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
+}
+
+.contactBody22 li {
+   margin: 1rem auto 1rem;
+   /* padding: 0 0rem 0 4rem; */
+   /* gap: 2rem; */
+   padding: 1rem 0;
+
+}
+
+.contactBody22 li a {
+   background-color: rgb(235, 235, 235);
+   background-color: #ffffff;
+   font-size: 1.7rem;
+   font-family: "Poppins", sans-serif;
+   /* text-align: center; */
+   margin: 1rem auto 1rem;
+   color: #300eda;
+   font-weight: bold;
+   text-decoration: none;
+   margin-left: 1rem;
+
+}
+
+.contactBody23 {
+   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
+}
+
+.contactBody23 li {
+   margin: 1rem auto 1rem;
+   padding: 1rem 0;
+
+
+
+}
+
+.contactBody23 li a {
+   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
+   font-size: 1.7rem;
+   font-family: "Poppins", sans-serif;
+   font-weight: bold;
+   margin: 1rem auto 1rem;
+   color: #300eda;
+   /* padding-left: 5rem; */
+   margin-left: 1rem;
+   text-decoration: none;
+}
+
+.contact3 {
+   background-color: #003366;
+}
+
+.contactHead3 {
+   background-color: #003366;
+}
+
+.contactHead3 h2 {
+   background-color: #003366;
+   text-align: center;
+   padding: 1rem 0;
+   color: #ffcc33;
+   font-weight: 700%;
+   font-size: 2rem;
+   text-decoration: underline;
+}
+
+.contactHead3 p {
+   background-color: #003366;
+   text-align: center;
+   font-size: 1.7rem;
+   font-family: "Poppins", sans-serif;
+   text-align: center;
+   font-weight: 700;
+   margin: 1.5rem auto 1.5rem;
+   color: #f8f2f4;
+
+}
+
+.contactBody3 {
+   background-color: #003366;
+}
+
+.contactBody3 a {
+   background-color: #003366;
+}
+
+.contactBody3 img {
+   background-color: #003366;
+   text-align: center;
+   aspect-ratio: auto;
+   width: 5rem;
+  
+   justify-content: center;
+}
+
+.copyrightBody {
+   background-color: #003366;
+}
+
+.copyrightContent {
+   background-color: #003366;
+}
+
+.copyrightsContent p {
+   background-color: #003366;
+   text-align: center;
+   font-size: 1.6rem;
+   color: #f8f2f4;
+}
+
+/*::: FOOTER CODE Ends HERE::: */
+
+/* :::: RESPONSIVE DESIGN DEVICE SIZES :::: */
+
+/* for Responsive Targrt the ROW code (display:grid) */
+
+/* Small devices (landscape phone, upto 576px and below) */
+@media (width <=576px) {
+
+   .grid-1,
+   .grid-2,
+   .grid-3,
+   .grid-4 {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .circularCardBody1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .circularContentHead1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .circularContentBody {
+      /* width: 100%; */
+   }
+
+   .gallaryContentBody1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .gallaryContentHead img {
+      width: 100%;
+      height: auto;
+   }
+
+   .placement {
+      /* width: 100%; */
+      /* height: auto;*/
+      padding: 1rem 5rem;
+   }
+   .placementImage1 {
+      /* width: 30%; */
+      /* padding: 3rem 0; */
+      /* height: auto; */
+      width: 50%;
+   }
+
+   .contactBody21 {
+      padding: 0 1.6rem;
+   }
+
+   .contactBody3 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+      /* grid-column: auto; */
+
+   }
+
+   .contactBody1 iframe {
+      padding: 0 3rem;
+   }
+   .contactBody3 img {
+      align-items: center;
+   }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+@media (width >=576px) and (width <=768px) {
+
+   .grid-1,
+   .grid-2,
+   .grid-3,
+   .grid-4 {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .circularContentHead1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .circularCardBody1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .gallaryContentBody1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .gallaryContentHead img {
+      width: 100%;
+      height: auto;
+   }
+
+   .contactBody3 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+   }
+
+   .contactBody1 iFrame {
+      padding: 0 3rem;
+   }
+   .placement {
+      /* padding: 0 0; */
+
+   }
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+@media (width >=769px) and (width <=992px) {
+
+   .grid-1,
+   .grid-2,
+   .grid-3,
+   .grid-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .heroImage img {
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .circularContentHead1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .circularCardBody1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .gallaryContentBody1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .gallaryContentHead img {
+      width: 100%;
+      height: auto;
+   }
+
+   .contactBody3 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+   }
+
+   .contactBody {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+
+}
+
+/* X-Large devices (Large desktops, upto 1200px and above) */
+@media (width >=993px) and (width <=1200px) {
+
+   .grid-1,
+   .grid-2,
+   .grid-3,
+   .grid-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .heroImage img {
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .circularContentHead1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .circularCardBody1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .gallaryContentBody1 img {
+      width: 100%;
+      height: auto;
+   }
+
+   .gallaryContentHead img {
+      width: 100%;
+      height: auto;
+   }
+
+   .contactBody3 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+   }
+
+   .contactBody {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+}
+
+/* XX-Large devices (larger desktops, upto 1400 and above) */
+@media (Width >=1200) {
+
+   .grid-1,
+   .grid-2,
+   .grid-3,
+   .grid-4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+
+   .heroImage img {
+      /* width: 100%; */
+      /* height: auto; */
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .circularContentHead1 img {
+      /* width: 100%; */
+      /* height: auto; */
+
+   }
+
+   .circularCardBody1 img {
+      /* width: 100%; */
+      /* height: auto; */
+      /* padding: 2rem 2rem; */
+   }
+
+   .gallaryContentBody1 img {
+      /* width: 100%; */
+      /* height: auto; */
+   }
+
+   .gallaryContentHead img {
+      /* width: 100%; */
+      /* height: auto; */
+   }
+
+   .contactBody3 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+   }
+
+   .contactBody {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+}
+
+@media (max-width:953px) {}

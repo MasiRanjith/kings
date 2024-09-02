@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*
+ Ajatix Advanced CSS Drop Down Menu
+ Copyright (C) 2009-2016 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuMMSTCZC,.AJXCSSMenuMMSTCZC_n,.AJXCSSMenuMMSTCZC *,.AJXCSSMenuMMSTCZC_n * {box-sizing:border-box;}
+.AJXCSSMenuMMSTCZC {position:relative;z-index:100;width:103%;line-height:3;background:#800000 url(maroon_files/menu-bg.gif) top center;text-align:center;}
+.AJXCSSMenuMMSTCZC ul {position:relative;display:inline-block;margin:2;padding:1px 3px 0px 3px;list-style-type:none;}
+*+html .AJXCSSMenuMMSTCZC ul {display:inline;}
+.AJXCSSMenuMMSTCZC li {float:left;margin:2;}
+.AJXCSSMenuMMSTCZC li:hover,.AJXCSSMenuMMSTCZC li.ajxover {position:relative;}
+.AJXCSSMenuMMSTCZC a,.AJXCSSMenuMMSTCZC_n a {display:block;overflow:hidden;}
+.AJXCSSMenuMMSTCZC>ul>li>a {height:33px;white-space:nowrap;padding:0 12px 0 12px;font:14px 'Roboto', sans-serif;line-height:33px;text-decoration:none;text-transform:none;text-align:left;border:0;border-radius:5px 5px 0 0;color:#ffffff;background:none;}
+.AJXCSSMenuMMSTCZC>ul>li:hover>a,.AJXCSSMenuMMSTCZC>ul>li.ajxover>a {background:blue;}
+.AJXCSSMenuMMSTCZC>ul>li>a.ajxsub {padding:2px 12px 2px 12px;background:none;}
+.AJXCSSMenuMMSTCZC>ul>li:hover>a.ajxsub,.AJXCSSMenuMMSTCZC>ul>li.ajxover>a.ajxsub {position: static;background:#c70000;}
+.AJXCSSMenuMMSTCZC li ul {position:absolute;left:-9999px;top:-9999px;width:196px;height:auto;display:inline-block;vertical-align:top;font-size:0;float:none;padding:3px 3px 3px 3px;border:none;background:#9d0000 url(maroon_files/sub-bg.gif) repeat-x left top;}
+.AJXCSSMenuMMSTCZC li:hover > ul,.AJXCSSMenuMMSTCZC li.ajxover > ul {left:0px;top:33px;}
+.AJXCSSMenuMMSTCZC li li {width:190px;margin:0;}
+
+/*sub menu details*/
+.AJXCSSMenuMMSTCZC li li a {height:auto;white-space:normal;padding:6px 20px 6px 12px;font:14px 'Roboto', sans-serif;line-height:12px;text-decoration:none;text-transform:none;text-align:left;border:3;color:#ffffff;transition:background-color 0.3s linear;background:none;}
+.AJXCSSMenuMMSTCZC li li:hover>a,.AJXCSSMenuMMSTCZC li li.ajxover>a {background:orange;}
+.AJXCSSMenuMMSTCZC li li a.ajxsub {width:190px;padding:6px 20px 6px 12px;background:url(maroon_files/sub-sub.gif) no-repeat center right;}
+.AJXCSSMenuMMSTCZC li li:hover>a.ajxsub,.AJXCSSMenuMMSTCZC li li.ajxover>a.ajxsub {position: static;background:#900000 url(maroon_files/sub-sub.gif) no-repeat center right;}
+.AJXCSSMenuMMSTCZC li li:hover > ul,.AJXCSSMenuMMSTCZC li li.ajxover > ul {left:193px;top:-3px;}
+@media screen and (max-width:480px) {
+.AJXCSSMenuMMSTCZC:after,.AJXCSSMenuMMSTCZC_n:after {content:'narrow';display:none;}
+.AJXCSSMenuMMSTCZC_n {position:relative;width:100%;z-index:100;padding-top:34px;background:#800000 url(maroon_files/menu-bg.gif) repeat-x top center;cursor:pointer;}
+.AJXCSSMenuMMSTCZC_n:before {position:absolute;top:0;right:10px;content:"\2261";font:bold 34px 'Roboto', sans-serif;line-height:34px;color:#ffffff;z-index:1;}
+.AJXCSSMenuMMSTCZC_n>ul:before {position:absolute;top:0;right:37px;content:"Menu";font:bold 17px 'Roboto', sans-serif;line-height:34px;color:#ffffff;z-index:1;cursor:pointer;}
+.AJXCSSMenuMMSTCZC_n ul {margin:0;list-style-type:none;background:#9d0000 url(maroon_files/sub-bg.gif) repeat-x left top;}
+.AJXCSSMenuMMSTCZC_n>ul {height:0;overflow:hidden;}
+.AJXCSSMenuMMSTCZC_n>ul.ajxover,.AJXCSSMenuMMSTCZC_n li ul{height:auto;padding:2px 2px 2px 2px;border:1px solid #800000;cursor:default;}
+.AJXCSSMenuMMSTCZC_n li {float:none;margin:0;display:none;}
+.AJXCSSMenuMMSTCZC_n .ajxover li {display:block;}
+.AJXCSSMenuMMSTCZC_n li a {height:auto;white-space:normal;padding:6px 20px 6px 12px;font:13px 'Roboto', sans-serif;line-height:12px;text-decoration:none;text-transform:none;text-align:left;border:0;color:#ffffff;transition:background-color 0.3s linear;background:none;}
+.AJXCSSMenuMMSTCZC_n li:hover>a,.AJXCSSMenuMMSTCZC_n li.ajxover>a {background:#900000;}
+.AJXCSSMenuMMSTCZC_n li a.ajxsub {padding:6px 20px 6px 12px;background:url(maroon_files/sub-sub.gif) no-repeat center right;}
+.AJXCSSMenuMMSTCZC_n li:hover>a.ajxsub,.AJXCSSMenuMMSTCZC_n li.ajxover>a.ajxsub {position: static;background:#900000 url(maroon_files/sub-sub.gif) no-repeat center right;}
+}
